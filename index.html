@@ -243,20 +243,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Mandame un mensaje</div>
-                    <form action="#">
+                    <form action="enviar.php" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Nombre" required>
+                                <input name="nombre" type="text" placeholder="Nombre" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input name="email" type="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Asunto" required>
+                            <input name="numero" type="text" placeholder="Numero Celular" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Mensaje.." required></textarea>
+                            <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje..." required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Enviar el mensaje</button>
@@ -267,7 +267,7 @@
         </div>
     </section>
 
-    <!-- footer section start -->
+    <!-- footer -->
     <footer>
         | <span class="far fa-copyright"></span> 2021 Todos los derechos reservados.</span>
     </footer>
