@@ -1,4 +1,4 @@
-/*  importar */
+/*  importar fuente de letra */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
@@ -362,16 +362,16 @@ section .title::after{
     width: 90%;
 }
 .habilidades-content .right .css::before{
-    width: 80%;
-}
-.habilidades-content .right .js::before{
     width: 70%;
 }
-.habilidades-content .right .php::before{
+.habilidades-content .right .js::before{
     width: 50%;
 }
+.habilidades-content .right .php::before{
+    width: 40%;
+}
 .habilidades-content .right .mysql::before{
-    width: 50%;
+    width: 40%;
 }
 
 /* referencias */
